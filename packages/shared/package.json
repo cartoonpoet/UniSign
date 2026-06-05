@@ -1,0 +1,10 @@
+{
+  "name": "@unisign/shared",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./index.ts",
+  "devDependencies": {
+    "@unisign/tsconfig": "workspace:*",
+    "typescript": "^5.6.0"
+  }
+}

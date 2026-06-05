@@ -1,0 +1,11 @@
+{
+  "extends": "@unisign/tsconfig/nestjs.json",
+  "compilerOptions": {
+    "paths": {
+      "@unisign/database": ["../../packages/database/index.ts"],
+      "@unisign/shared": ["../../packages/shared/index.ts"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
